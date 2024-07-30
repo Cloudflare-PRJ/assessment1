@@ -3,7 +3,7 @@ export default {
     const url = new URL(request.url);
     const pathname = url.pathname;
 
-    if (pathname.startsWith('/secure/')) {
+    if (pathname.startsWith('/secure')) {
       return handleSecureRequest(request, env);
     }
 
