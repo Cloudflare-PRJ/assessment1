@@ -1,0 +1,10 @@
+name = "worker"
+main = "src/index.js"
+compatibility_date = "2024-07-28"
+
+account_id = "bca8d0c4205c33d36be881a628e7536e"
+
+[[r2_buckets]]
+binding = "R2_BUCKET"
+bucket_name = "korays-bucket"
+preview_bucket_name = "korays-bucket"
